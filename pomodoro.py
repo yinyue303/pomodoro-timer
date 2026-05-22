@@ -150,6 +150,7 @@ class PomodoroTimer:
         self.canvas.coords(self.progress_bar, 0, 0, bar_width, 16)
         self.canvas.itemconfig(self.progress_bar, fill=bar_color)
 
+        # title color
         self.title_label.config(fg=bar_color)
 
     def play_notification(self):
